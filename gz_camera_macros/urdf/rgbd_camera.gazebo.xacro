@@ -35,8 +35,6 @@ For example:
     <xacro:property name="fy" value="${image_height * 0.5 / tan(v_fov * 0.5)}" />
     <xacro:property name="cx" value="${image_width * 0.5}" />
     <xacro:property name="cy" value="${image_height * 0.5}" />
-    <xacro:property name="min_depth" value="0.52" />
-    <xacro:property name="max_depth" value="6.0" />
 
     <gazebo reference="${name}_color_frame">
         <sensor name="${name}" type="rgbd_camera">
